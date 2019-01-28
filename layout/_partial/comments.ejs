@@ -5,3 +5,8 @@
         </div>
     </div>
 <% } %>
+<% if(page.comments && theme.valine.enabled){ %>
+	<div id="vcomments">
+	<noscript><%= __('comments.no_js') %></noscript>
+	</div>
+<% } %>
