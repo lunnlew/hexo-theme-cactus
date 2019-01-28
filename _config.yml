@@ -134,14 +134,14 @@ disqus:
 
 # Fill in your valine Comments Params to enable valine comments.
 valine:
-  enabled: true
+  enabled: false
   appId: 0qs**********GzoHsz
   appKey: BFsv**********pimImw
   notify: false
   verify: false
   avatar: 'mm'
   placeholder: 'just go go'
-  visitor: true
+  visitor: false
 
 # Fill in your Google Analytics tracking ID to enable Google Analytics.
 google_analytics:
